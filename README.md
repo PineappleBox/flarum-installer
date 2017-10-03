@@ -25,4 +25,4 @@ Currently, we do not offer a way to upgrade Flarum and it's dependencies. We wil
 
 ## License
 
-(C) 2017 Hexa Inc, All Rights Reserved. This code was released under the Apache license.
+(C) 2017 Hexa Inc, All Rights Reserved. This code was released under the GNU General Publi License v3.
