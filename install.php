@@ -225,7 +225,7 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
 				$query7 = mysqli_multi_query($conn,"INSERT INTO `hexa-forum_tags`(`id`, `name`, `slug`, `description`, `color`, `background_path`, `background_mode`, `position`, `parent_id`, `default_sort`, `is_restricted`, `is_hidden`, `discussions_count`, `last_time`, `last_discussion_id`) VALUES ('1','General','general',NULL,'#888',NULL,NULL,'0',NULL,NULL,'0','0','0',NULL,NULL)");
 				$query8 = mysqli_multi_query($conn,"INSERT INTO `hexa-forum_users`(`id`, `username`, `email`, `is_activated`, `password`, `bio`, `avatar_path`, `preferences`, `join_time`, `last_seen_time`, `read_time`, `notifications_read_time`, `discussions_count`, `comments_count`, `flags_read_time`, `suspend_until`) VALUES ('1','".$fadmin."','".$femail."','1','".$fpass."',NULL,NULL,NULL,'".date("Y-m-d h:i:sa")."','".date("Y-m-d h:i:sa")."',NULL,NULL,'0','0',NULL,NULL)");
 				$query9 = mysqli_multi_query($conn,"INSERT INTO `hexa-forum_users_groups`(`user_id`, `group_id`) VALUES ('1','1')");
-				file_put_contents("installer.zip", fopen("https://flarum.myhexa.co/dev/installer-files.zip", 'r'));
+				file_put_contents("installer.zip", fopen("installer-files.zip", 'r'));
 				$zip = new ZipArchive;
 				$zip->open('installer.zip');
 				$zip->extractTo('./');
