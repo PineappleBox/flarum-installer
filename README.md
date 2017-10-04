@@ -2,6 +2,7 @@
 
 
 **The Hexa auto-installer makes it super easy to install Flarum on any host.**
+(You can find the current project tasks ![here](https://github.com/myhexa/flarum-installer/projects/1)
 
 **_FEATURES:_**
 
