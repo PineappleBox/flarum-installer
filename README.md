@@ -5,7 +5,7 @@
 
 **_FEATURES:_**
 
-* Easy to use interface - _Simple fill in some fields and hit install_
+* Easy to use interface - _Simply fill in some fields and hit install_
 * Mobile Friendly - _Installing on mobile? The installer works perfectly on any device_
 * Lightning Fast - _Once you click install, your forum is ready within 10 seconds_
 
