@@ -13,6 +13,10 @@
 
 ![Installer](https://flarum.myhexa.co/img/screenshot.png)
 
+## HTTPS Support
+
+This software can be used on both http and https sites. This will soon change, however. Google is now showing insecure warnings on http sites, which means https will become the new standard. The Hexa auto-installer will soon install Flarum at the https version instead of http. This will be able to be changed still, but won't be default for new sites.
+
 
 
 ## Hosting
