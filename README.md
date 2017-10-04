@@ -14,6 +14,11 @@
 ![Installer](https://flarum.myhexa.co/img/screenshot.png)
 
 
+
+## Hosting
+
+Don't have a host to install Flarum on? Join Hexa Hosting today for a low monthly rate to get your Flarum forum up and running today! Contact us for more information. [https://hosting.myhexa.co](https://hosting.myhexa.co)
+
 ## Plugins
 
 (Please note this while enabling extensions. Without doing this, your site will break.)
