@@ -277,16 +277,13 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
     <script src="https://myhexa.co/dist/theme.min.js"></script>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     </head>
-
 <body class="signin-page">
                   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" role="navigation">
                 <div class="container">
                   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-2">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-
                   <a class="navbar-brand" href="#"><img src="img/logo.png" class="d-none d-lg-inline mr-2 w-25" /></a>
-
                   <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-2">
                     <ul class="navbar-nav">
                       <li class="nav-item">
@@ -311,16 +308,11 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
                   </div>
                 </div>
               </nav>
-
-
-
         <br><br><br><br><br><br><div class="wrapper"><h1>Install Flarum</h1>
 <p>This <a href="http://flarum.org">Flarum</a> auto-installer was created by the team at <a href="https://myhexa.co">Hexa</a>.</p></div>
-
 <form method="post">
   <div id="error" style="display:none"></div>
 <br><h3 class="lead"><b>Basic Information:</b></h3><br>
-
   <div class="FormGroup">
     <div class="form-field">
       <input type="text" name="forumTitle" placeholder="Forum Title" required>
@@ -329,37 +321,28 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
       <input type="text" name="primaryColor" placeholder="Primary Color (ex: #000000)">
     </div>
   </div>
-  
 <br><h3 class="lead"><b>MySQL Details:</b></h3><br>
-
       <div class="form-field">
       <input type="text" name="mysqlDatabase" placeholder="DB Name" required>
     </div>
-
     <div class="form-field">
       <input type="text" name="mysqlUsername" placeholder="DB Username" required>
     </div>
-
     <div class="form-field">
       <input type="password" name="mysqlPassword" placeholder="DB Password" required>
-    </div>
-    
+	</div>
 <br><h3 class="lead"><b>Account Details:</b></h3><br>
-
   <div class="FormGroup">
     <div class="form-field">
       <input type="text" name="adminUsername" placeholder="Username" required>
     </div>
-
     <div class="form-field">
       <input type="text" name="adminEmail" placeholder="Email Address" required>
     </div>
-
     <div class="FormField">
       <input type="text" value="12345678" placeholder="Password" disabled>
     </div>
   </div><br>
-
 <div class="wrapper">
   <div class="FormButtons">
 <button type="submit" class="btn-shadow btn-shadow-dark btn-pill" name="install"><i class="zmdi zmdi-check"></i> INSTALL FORUM</button><br><br>
@@ -380,15 +363,10 @@ At Hexa, we believe code is AWESOME!
     <a href="https://twitter.com/home?status=I%20just%20installed%20%40flarum%20using%20the%20%40myhexa%20auto-installer.%20You%20should%20really%20check%20out%20their%20stuff!%20It's%20really%20AWESOME!!!">Share on Twitter</a>
   </div>
 </div>
-
 <div class="wrapper"><br>
   <div class="alert alert-inverse" role="alert">
   Running into any issues during installation? Please click <a href="https://community.myhexa.co/t/flarum-installer">here</a> to let us know about them.
 </div>
-
-
-
-
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       </div>
     </div>
