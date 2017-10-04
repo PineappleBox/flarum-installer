@@ -7,8 +7,7 @@
 
 * Easy to use interface - _Simply fill in some fields and hit install_
 * Mobile Friendly - _Installing on mobile? The installer works perfectly on any device_
-* Lightning Fast - _Once you click install, your forum is ready within 10 seconds_
-
+* Lightning Fast - _Once you click install, your forum is ready in less than 1 minute!_
 
 
 ![Installer](https://flarum.myhexa.co/img/screenshot.png)
