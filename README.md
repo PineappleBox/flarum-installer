@@ -1,5 +1,3 @@
-**_THERE IS CURRENTLY A BUG IN THIS SOFTWARE. IF YOU USE THIS SOFTWARE, IT WILL NOT INSTALL. WE WILL REMOVE THIS LINE ONCE WE RESOLVE THE ISSUE_**
-
 <img src="https://myhexa.co/back/assets/img/logo.png" alt="" width="200">
 
 
