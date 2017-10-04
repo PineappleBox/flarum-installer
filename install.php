@@ -357,7 +357,8 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
   </div><br>
 <div class="wrapper">
   <div class="FormButtons">
-<button type="submit" class="btn-shadow btn-shadow-dark btn-pill" name="install"><i class="zmdi zmdi-check"></i> INSTALL FORUM</button>
+<button type="submit" class="btn-shadow btn-shadow-dark btn-pill" name="install"><i class="zmdi zmdi-check"></i> INSTALL FORUM</button><br><br>
+	  <a href="index"><i class="zmdi zmdi-arrow-left"></i> Back to Welcome Screen</a>
   </div>
   </div>
 </form>
