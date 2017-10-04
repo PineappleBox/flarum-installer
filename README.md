@@ -1,8 +1,8 @@
 <img src="https://myhexa.co/back/assets/img/logo.png" alt="" width="200">
 
 
-**The Hexa auto-installer makes it super easy to install Flarum on any host.**
-(You can find the current project tasks ![here](https://github.com/myhexa/flarum-installer/projects/1)
+**The Hexa auto-installer makes it super easy to install Flarum on any host.**<br>
+(You can find the current project tasks ![here](https://github.com/myhexa/flarum-installer/projects/1))
 
 **_FEATURES:_**
 
