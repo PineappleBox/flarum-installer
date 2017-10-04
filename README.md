@@ -14,6 +14,11 @@
 ![Installer](https://flarum.myhexa.co/img/screenshot.png)
 
 
+## Plugins
+
+(Please note this while enabling extensions. Without doing this, your site will break.)
+
+Once installed, go to the file "config.php". Find the debug section and change "false" to "true". Now, save the file. Go into your dashboard and enable all extensions you would like enabled. Once done, revert changes to "config.php". Repeat these steps if you need to enable other extensions.
 
 ## Installer Support
 
