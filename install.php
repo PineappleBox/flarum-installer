@@ -235,7 +235,7 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
 				unlink($myFile);
 				unlink(basename(__FILE__));
 				$config = "<?php" . " return array (
-				  'debug' => false,
+				  'debug' => true,
 				  'database' => 
 				  array (
 					'driver' => 'mysql',
