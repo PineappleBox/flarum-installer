@@ -1,6 +1,6 @@
 {
-  "name": "Hexa Flarum Installer",
-  "description": "The easiest way to install Flarum on any host.",
+  "name": "Hexa Installer",
+  "description": "Want to start up a forum? Try the Hexa Installer to install Flarum onto Heroku.",
   "repository": "https://github.com/myhexa/flarum-installer",
   "logo": "https://myhexa.co/favicon.ico",
   "keywords": ["node", "express", "static"]
