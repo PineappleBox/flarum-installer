@@ -1,0 +1,7 @@
+{
+  "name": "Hexa Flarum Installer",
+  "description": "The easiest way to install Flarum on any host.",
+  "repository": "https://github.com/myhexa/flarum-installer",
+  "logo": "https://myhexa.co/favicon.ico",
+  "keywords": ["node", "express", "static"]
+}
