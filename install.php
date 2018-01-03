@@ -262,113 +262,143 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
 	}
 }
 ?>
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Install Flarum | Hexa</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="https://myhexa.co/back/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://myhexa.co/scss/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="https://myhexa.co/dist/theme.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://myhexa.co/dist/theme.min.js"></script>  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    </head>
-<body class="signin-page">
-                  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" role="navigation">
-                <div class="container">
-                  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-2">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <a class="navbar-brand" href="#"><img src="img/logo.png" class="d-none d-lg-inline mr-2 w-25" /></a>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-2">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://myhexa.co" target="_blank">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://myhexa.co/features" target="_blank">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://myhexa.co/pricing" target="_blank">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://myhexa.co/contact" target="_blank">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://community.myhexa.co" target="_blank">Community</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link nav-link--rounded ml-lg-2" target="_blank" href="http://flarum-demo.myhexa.co">View Demo Site</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        <br><br><br><br><br><br><div class="wrapper"><h1>Install Flarum</h1>
-<p>This <a href="http://flarum.org">Flarum</a> auto-installer was created by the team at <a href="https://myhexa.co">Hexa</a>.</p></div>
-<form method="post">
-  <div id="error" style="display:none"></div>
-<br><h3 class="lead"><b>Basic Information:</b></h3><br>
-  <div class="FormGroup">
-    <div class="form-field">
-      <input type="text" name="forumTitle" placeholder="Forum Title" required>
-    </div>
-          <div class="FormField">
-      <input type="text" name="primaryColor" placeholder="Primary Color (ex: #000000)">
-    </div>
-  </div>
-<br><h3 class="lead"><b>MySQL Details:</b></h3><br>
-      <div class="form-field">
-      <input type="text" name="mysqlDatabase" placeholder="DB Name" required>
-    </div>
-    <div class="form-field">
-      <input type="text" name="mysqlUsername" placeholder="DB Username" required>
-    </div>
-    <div class="form-field">
-      <input type="password" name="mysqlPassword" placeholder="DB Password" required>
-	</div>
-<br><h3 class="lead"><b>Account Details:</b></h3><br>
-  <div class="FormGroup">
-    <div class="form-field">
-      <input type="text" name="adminUsername" placeholder="Username" required>
-    </div>
-    <div class="form-field">
-      <input type="text" name="adminEmail" placeholder="Email Address" required>
-    </div>
-    <div class="FormField">
-      <input type="text" value="12345678" placeholder="Password" disabled>
-    </div>
-  </div><br>
-<div class="wrapper">
-  <div class="FormButtons">
-<button type="submit" class="btn-shadow btn-shadow-dark btn-pill" name="install"><i class="zmdi zmdi-check"></i> INSTALL FORUM</button><br><br>
-<a href="index"><i class="zmdi zmdi-arrow-left"></i> Back to Welcome Screen</a>
-  </div>
-  </div>
-</form>
-<div class="index-features-cta">
-  <div class="container">
-    <div class="info">
-      <strong>
-At Hexa, we believe code is AWESOME!
-</strong>
-      <p>
-        It takes a lot of time and hard work to put together these projects.<br> Please show your support by sharing this project!
-      </p>
-    </div>
-    <a href="https://twitter.com/home?status=I%20just%20installed%20%40flarum%20using%20the%20%40myhexa%20auto-installer.%20You%20should%20really%20check%20out%20their%20stuff!%20It's%20really%20AWESOME!!!">Share on Twitter</a>
-  </div>
-</div>
-<div class="wrapper"><br>
-  <div class="alert alert-inverse" role="alert">
-  Running into any issues during installation? Please click <a href="https://community.myhexa.co/t/flarum-installer">here</a> to let us know about them.
-</div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      </div>
-    </div>
-  </body>
-</html>
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="description" content="A complete landing page solution for any business">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="favicon.ico">
+		<title>Install Flarum | Hexa</title>
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/strokegap/style.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/linearicons/style.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/fancybox/dist/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/vendor/animate.css/animate.min.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/css/bundle.css">
+		<link rel="stylesheet" href="https://myhexa.co/assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Google%20Sans:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+
+	<body>
+		<header class="header header-shrink header-inverse fixed-top">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="/">
+						<span class="logo-default">
+          <img src="https://myhexa.co/assets/img/hexa-white.svg" alt="">
+        </span>
+						<span class="logo-inverse">
+          <img src="https://myhexa.co/assets/img/hexa.svg" alt="">
+        </span>
+					</a>
+					<div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+						<span class="lnr lnr-text-align-right nav-hamburger"></span>
+						<span class="lnr lnr-cross nav-close"></span>
+					</div>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link btn btn-sm btn-rounded btn-default u-w-110" href="https://myhexa.co" target="_blank">Visit Hexa</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link btn btn-sm btn-rounded btn-white u-w-160" href="https://github.com/myhexa/flarum-installer">View on GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section class="u-py-100 u-pt-lg-200 u-pb-lg-150 u-flex-center" style="background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen; background-size:cover; background-position: top center;">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center text-white">
+						<h1 class="text-white">
+    			Install Flarum Software
+    		</h1>
+						<div class="u-h-4 u-w-50 bg-white rounded mx-auto my-4"></div>
+						<p class="lead">
+							During this installation, Flarum will be installed onto
+							<?php
+$hostname = getenv('HTTP_HOST');
+echo $hostname; ?>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pb-0 u-pt-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 m-auto text-center">
+						<div class="card box-shadow-v2 bg-white u-of-hidden">
+							<h2 class="bg-hexa m-0 py-3 text-white">Basic Info</h2>
+							<form method="POST" class="p-5 u-px-md-70 u-pb-80">
+								<input class="u-mb-25" type="text" name="forumTitle" placeholder="Forum Title" required>
+								<input class="u-mb-25" type="text" name="primaryColor" placeholder="Primary Color (ex: #000000)">
+								<button class="btn btn-primary btn-rounded mt-4" data-scrollto="step2">Next Step</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pb-0 u-pt-100" id="step2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 m-auto text-center">
+						<div class="card box-shadow-v2 bg-white u-of-hidden">
+							<h2 class="bg-default m-0 py-3 text-white">MySQL Details</h2>
+							<div class="p-5 u-px-md-70 u-pb-80">
+								<input class="u-mb-25" type="text" name="mysqlDatabase" placeholder="DB Name" required>
+								<input class="u-mb-25" type="text" name="mysqlUsername" placeholder="DB Username" required>
+								<input class="u-mb-25" type="password" name="mysqlPassword" placeholder="DB Password" required>
+								<button class="btn btn-default btn-rounded mt-4" data-scrollto="step3">Next Step</button>
+
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pb-0 u-pt-100" id="step3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 m-auto text-center">
+						<div class="card box-shadow-v2 bg-white u-of-hidden">
+							<h2 class="bg-hexa m-0 py-3 text-white">Account Details</h2>
+							<form method="POST" class="p-5 u-px-md-70 u-pb-80">
+								<input class="u-mb-25" type="text" name="adminUsername" placeholder="Username" required>
+								<input class="u-mb-25" type="email" name="adminEmail" placeholder="Email Address" required>
+								<input class="u-mb-25" type="email" value="12345678" placeholder="Password" disabled>
+								<button type="submit" class="btn btn-primary btn-rounded mt-4" name="install">Install Now</button>
+							</form>
+						</div>
+						<br>Need some assistance? Check out our forum where you can find answers and post your questions. <a href="https://talk.myhexa.co/t/flarum-installer" target="_blank" style="text-decoration: underline">Visit Forum</a>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://myhexa.co/assets/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/popper.js/dist/popper.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/isotope/dist/isotope.pkgd.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/parallax.js/parallax.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/wow/dist/wow.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/vide/dist/jquery.vide.min.js"></script>
+		<script src="https://myhexa.co/assets/vendor/appear-master/dist/appear.min.js"></script>
+		<script src="https://myhexa.co/assets/js/smoothscroll.js"></script>
+		<script src="https://myhexa.co/assets/js/bundle.js"></script>
+		<script src="https://myhexa.co/assets/js/fury.js"></script>
+	</body>
+
+	</html>
