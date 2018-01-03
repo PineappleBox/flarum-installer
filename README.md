@@ -1,4 +1,4 @@
-<img src="https://myhexa.co/back/assets/img/logo.png" alt="" width="200">
+<img src="https://myhexa.co/assets/img/hexa.svg" alt="" width="200">
 
 
 **The Hexa auto-installer makes it super easy to install Flarum on any host.**<br>
@@ -11,17 +11,11 @@
 * Lightning Fast - _Once you click install, your forum is ready in less than 1 minute!_
 
 
-![Installer](https://flarum.myhexa.co/img/screenshot.png)
+![Installer](https://myhexa.co/assets/img/hexa-installer-flarum-screenshot.png)
 
 ## HTTPS Support
 
 This software can be used on both http and https sites. This will soon change, however. Google is now showing insecure warnings on http sites, which means https will become the new standard. The Hexa auto-installer will soon install Flarum at the https version instead of http. This will be able to be changed still, but won't be default for new sites.
-
-
-
-## Hosting
-
-Don't have a host to install Flarum on? Join Hexa Hosting today for a low monthly rate to get your Flarum forum up and running today! Contact us for more information. [https://hosting.myhexa.co](https://hosting.myhexa.co)
 
 ## Plugins
 
@@ -39,4 +33,4 @@ Currently, we do not offer a way to upgrade Flarum and it's dependencies. We wil
 
 ## License
 
-(C) 2017 Hexa Inc, All Rights Reserved. This code was released under the GNU General Public License v3.
+(C) 2018 Hexa Inc, All Rights Reserved. This code was released under the GNU General Public License v3.
