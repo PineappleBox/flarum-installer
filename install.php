@@ -329,20 +329,24 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
 $hostname = getenv('HTTP_HOST');
 echo $hostname; ?>
 						</p>
+						<button class="btn btn-white btn-rounded mt-4 u-w-200" data-scrollto="step1">Continue</button>
+
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="pb-0 u-pt-100">
+		<section class="pb-0 u-pt-100" id="step1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 m-auto text-center">
 						<div class="card box-shadow-v2 bg-white u-of-hidden">
 							<h2 class="bg-hexa m-0 py-3 text-white">Basic Info</h2>
-							<form method="POST" class="p-5 u-px-md-70 u-pb-80">
-								<input class="u-mb-25" type="text" name="forumTitle" placeholder="Forum Title" required>
-								<input class="u-mb-25" type="text" name="primaryColor" placeholder="Primary Color (ex: #000000)">
-								<button class="btn btn-primary btn-rounded mt-4" data-scrollto="step2">Next Step</button>
+							<div class="p-5 u-px-md-70 u-pb-80">
+								<form method="post">
+									<input class="u-mb-25" type="text" name="forumTitle" placeholder="Forum Title" required>
+									<input class="u-mb-25" type="text" name="primaryColor" placeholder="Primary Color (ex: #000000)">
+									<button class="btn btn-primary btn-rounded mt-4" data-scrollto="step2">Next Step</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -360,7 +364,6 @@ echo $hostname; ?>
 								<input class="u-mb-25" type="password" name="mysqlPassword" placeholder="DB Password" required>
 								<button class="btn btn-default btn-rounded mt-4" data-scrollto="step3">Next Step</button>
 
-								</form>
 							</div>
 						</div>
 					</div>
@@ -373,12 +376,13 @@ echo $hostname; ?>
 					<div class="col-lg-6 m-auto text-center">
 						<div class="card box-shadow-v2 bg-white u-of-hidden">
 							<h2 class="bg-hexa m-0 py-3 text-white">Account Details</h2>
-							<form method="POST" class="p-5 u-px-md-70 u-pb-80">
+							<div class="p-5 u-px-md-70 u-pb-80">
 								<input class="u-mb-25" type="text" name="adminUsername" placeholder="Username" required>
 								<input class="u-mb-25" type="email" name="adminEmail" placeholder="Email Address" required>
 								<input class="u-mb-25" type="email" value="12345678" placeholder="Password" disabled>
 								<button type="submit" class="btn btn-primary btn-rounded mt-4" name="install">Install Now</button>
-							</form>
+								</form>
+							</div>
 						</div>
 						<br>Need some assistance? Check out our forum where you can find answers and post your questions. <a href="https://talk.myhexa.co/t/flarum-installer" target="_blank" style="text-decoration: underline">Visit Forum</a>
 						<br>
