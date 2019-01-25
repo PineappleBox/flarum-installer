@@ -13,7 +13,7 @@ if(isset($_POST['install'])){
 		}else{
 			$flink = "http://".$_SERVER['HTTP_HOST'];
 		}
-		$conn = mysqli_connect('localhost',$fdbuser,$fdbpass);
+		$conn = mysqli_connect('sql200.ezyro.com',$fdbuser,$fdbpass);
 		$dbcon = mysqli_select_db($conn,$fdbname);
 		if(!$conn){
 			die("Connection failed : " . mysqli_error());
@@ -239,7 +239,7 @@ $query = mysqli_query($conn,"CREATE TABLE `hexa-forum_users_tags` (
 				  'database' => 
 				  array (
 					'driver' => 'mysql',
-					'host' => 'localhost',
+					'host' => 'sql200.ezyro.com',
 					'database' => '".$fdbname."',
 					'username' => '".$fdbuser."',
 					'password' => '".$fdbpass."',
